@@ -1,0 +1,48 @@
+.heading {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    top: 0;
+    font-size: 3rem;
+    z-index: 10;
+}
+
+.oneandall{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.piechart {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 30rem;
+    margin-top: 3rem;
+    z-index: 1;
+}
+
+.linechart {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 30rem;
+    margin-top: 3rem;
+    z-index: 1;
+}
+
+
+.barchart {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    z-index: 2;
+}
